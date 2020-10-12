@@ -5,8 +5,8 @@ average_age_wmn = 69.5
 average_age_men = 65.0
 sex = input("Введите Ваш пол: М или Ж: ")
 if sex == "М":
-    print("Вы прожили ", age/average_age_men, " своей жизни ")
+    print("Вы прожили ", "%.2f" % (age/average_age_men), " своей жизни ")
 elif sex == "Ж":
-    print("Вы прожили ", age/average_age_wmn, " своей жизни ")
+    print("Вы прожили ", "%.2f" % (age/average_age_wmn), " своей жизни ")
 else:
     print("Вы ввели некорректное значение :( ")
